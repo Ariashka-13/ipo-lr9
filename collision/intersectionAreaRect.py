@@ -3,7 +3,7 @@ from .isCollisionRect import isCollisionRect
 
 def intersectionAreaRect(rect1, rect2):
     if not isCorrectRect(rect1) or not isCorrectRect(rect2): 
-        print("ValueError: некорректный прямоугольник") 
+        raise ValueError("Некорректный прямоугольник") 
     
     area = 0 
     
