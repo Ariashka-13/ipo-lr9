@@ -5,7 +5,7 @@ from .intersectionAreaRect import intersectionAreaRect
 def intersectionAreaMultiRect(rectangles):
     for rect in rectangles:
         if not isCorrectRect(rect):
-            print("Некорректный прямоугольник")
+            raise ValueError("Некорректный прямоугольник")
 
     total_area = 0
 
