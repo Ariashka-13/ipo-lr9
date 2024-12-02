@@ -31,7 +31,7 @@ def main():
         [(-3, 1), (9, 10)],
         [(3, 17), (13, 1)]  
     ]
-    print(intersectionAreaMultiRect(incorrect_rectangles))  
+    print(f"Общая площадь пересечения: {intersectionAreaMultiRect(incorrect_rectangles)}")  
 
 if __name__ == "__main__":
     main()
