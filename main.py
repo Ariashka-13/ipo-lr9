@@ -8,18 +8,18 @@ rectangles = [
 ]
 
 for rect in rectangles:
-    print(f"Пример 1: isCorrectRect({rect}): {isCorrectRect(rect)}")
+    print(f"isCorrectRect({rect}): {isCorrectRect(rect)}")
 
 for i in range(len(rectangles)):
     rect1 = rectangles[i]
     for j in range(i + 1, len(rectangles)):
         rect2 = rectangles[j]
-        print(f"Пример 2: isCollisionRect({rect1}, {rect2}): {isCollisionRect(rect1, rect2)}")
+        print(f"isCollisionRect({rect1}, {rect2}): {isCollisionRect(rect1, rect2)}")
 
 for i in range(len(rectangles)):
     rect1 = rectangles[i]
     for j in range(i + 1, len(rectangles)):
         rect2 = rectangles[j]
-        print(f"Пример 3: intersectionAreaRect({rect1}, {rect2}): {intersectionAreaRect(rect1, rect2)}")
+        print(f"intersectionAreaRect({rect1}, {rect2}): {intersectionAreaRect(rect1, rect2)}")
 
-print(f"Пример 4: intersectionAreaMultiRect(rectangles): {intersectionAreaMultiRect(rectangles)}")
+print(f"intersectionAreaMultiRect(rectangles): {intersectionAreaMultiRect(rectangles)}")
